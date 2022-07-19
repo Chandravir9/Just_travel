@@ -1,0 +1,66 @@
+#first{
+    background: red;
+    color: white;
+    /* height: 125px; */
+    /* width: 20%; */
+    /* float: left; */
+    /* margin-left: 4px; */
+    /* flex-grow: 1; */
+    /* flex-basis: 30%; */
+}
+#sec{
+    background: green;
+    color: red;
+    /* flex-basis: 30%; */
+    /* height: 100px; */
+    /* width: 20%; */
+    /* float: left; */
+    /* margin-left: 4px; */
+    /* flex-grow: 1; */
+}
+#third{
+    background: blue;
+    color: white;
+    /* height: 150px; */
+    /* width: 20%; */
+    /* float: left; */
+    /* margin-left: 4px; */
+    /* flex-grow: 1; */
+    /* flex grow is to extend your block with the number of block you want.like if i give flex-grow:1; it will take one block. */
+    /* flex-basis: 30%; */
+}
+#fourth{
+    background: orange;
+    color: black;
+    /* height: 100px; */
+    /* width: 20%; */
+    /* float: left; */
+    /* margin-left: 4px; */
+    /* flex-grow: 1; */
+/* flex-basis: 30%; */
+/* felx-basis provides the width of child div */
+/* order:1; */
+/* order is used to arrange blocks on main axis. order works like queue, if i provide oredr in only 1 block with oredr 1 it will go to right end. after that if i provide order 2 order3 and so on to other blocks then order=1 will be left most and followed by order num in right */
+/* flex: 1 0 25%; */
+/* shorthand method -
+flexgrow flexshrink flexbasis */
+/* align-self:flex-start ; */
+/* align-self is to align itself on cross main. */
+/* justify-self: flex-start; */
+/* it will align itself on main axis. */
+}
+.float{
+    background: aqua;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
+    /* justify content is used to arrange containers along the main axis of flex box */
+/* align-items: flex-end; */
+align-items: center;
+/* align-items: baseline; */
+/* align-items: stretch; */
+flex-wrap: nowrap;
+}
